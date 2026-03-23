@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { Button } from '@/components/ui/Button'
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false)
@@ -141,7 +140,7 @@ export const Navigation = () => {
             Contactar
           </Link>
         </div>
-      )}}
+      )}
     </nav>
   )
 }
