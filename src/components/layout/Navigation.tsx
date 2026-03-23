@@ -67,6 +67,11 @@ export const Navigation = () => {
           }}>
             Servicios
           </Link>
+          <div style={{
+            width: '1px',
+            height: '24px',
+            backgroundColor: '#caced2',
+          }} />
           <Link href="/contacto" style={{
             fontSize: '16px',
             color: '#191c1d',
@@ -122,6 +127,11 @@ export const Navigation = () => {
           }}>
             Servicios
           </Link>
+          <div style={{
+            width: '100%',
+            height: '1px',
+            backgroundColor: '#caced2',
+          }} />
           <Link href="/contacto" style={{
             fontSize: '18px',
             color: '#191c1d',
@@ -131,7 +141,7 @@ export const Navigation = () => {
             Contactar
           </Link>
         </div>
-      )}
+      )}}
     </nav>
   )
 }
