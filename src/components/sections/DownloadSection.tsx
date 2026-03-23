@@ -2,7 +2,6 @@
 
 import { useState } from 'react'
 import { Button } from '@/components/ui/Button'
-import { Section } from '@/components/ui/Section'
 
 interface DownloadModalProps {
   isOpen: boolean
@@ -208,7 +207,13 @@ export const DownloadSection = () => {
 
   return (
     <>
-      <Section style={{ backgroundColor: '#f3f4f5', paddingTop: '96px', paddingBottom: '96px' }}>
+      <section style={{
+        backgroundColor: '#f3f4f5',
+        paddingTop: '96px',
+        paddingBottom: '96px',
+        paddingLeft: '24px',
+        paddingRight: '24px',
+      }}>
         <div style={{
           maxWidth: '800px',
           margin: '0 auto',
@@ -248,7 +253,7 @@ export const DownloadSection = () => {
             Descargar Guía Excel Gratuita
           </Button>
         </div>
-      </Section>
+      </section>
       <DownloadModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </>
   )

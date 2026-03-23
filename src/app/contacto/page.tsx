@@ -50,7 +50,7 @@ export default function ContactPage() {
           'Hubo un error al enviar el formulario. Por favor, intenta nuevamente.'
         )
       }
-    } catch (err) {
+    } catch (_err) {
       setError(
         'Error de conexión. Por favor, verifica tu conexión e intenta de nuevo.'
       )

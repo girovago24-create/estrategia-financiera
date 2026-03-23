@@ -30,7 +30,7 @@ export const TestimonialSection = () => (
           color: '#ffffff',
           marginBottom: '32px',
         }}>
-          "Sin claridad financiera no hay estrategia real."
+          &quot;Sin claridad financiera no hay estrategia real.&quot;
         </h2>
 
         <p style={{
