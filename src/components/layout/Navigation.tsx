@@ -78,12 +78,16 @@ export const Navigation = () => {
             display: 'flex',
             flexDirection: 'column',
             gap: '4px',
-            padding: '8px',
+            padding: '8px 0px',
             background: 'none',
             border: 'none',
             cursor: 'pointer',
             opacity: 0.7,
             transition: 'opacity 200ms',
+            alignItems: 'center',
+            justifyContent: 'center',
+            width: '44px',
+            height: '44px',
           }}
           onClick={() => setIsOpen(!isOpen)}
           className="md:hidden"
@@ -99,7 +103,7 @@ export const Navigation = () => {
         <div style={{
           borderTop: '1px solid #caced2',
           backgroundColor: '#f8f9fa',
-          padding: '24px',
+          padding: '24px 24px 24px 24px',
           display: 'flex',
           flexDirection: 'column',
           gap: '24px',
