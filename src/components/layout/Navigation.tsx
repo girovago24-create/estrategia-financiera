@@ -67,9 +67,15 @@ export const Navigation = () => {
           }}>
             Servicios
           </Link>
-          <Button variant="primary" style={{ marginLeft: '8px', fontSize: '16px' }}>
-            <Link href="/contacto" style={{ textDecoration: 'none', color: 'inherit' }}>Contactar</Link>
-          </Button>
+          <Link href="/contacto" style={{
+            fontSize: '16px',
+            color: '#191c1d',
+            textDecoration: 'none',
+            fontFamily: 'var(--font-sans, Inter, sans-serif)',
+            transition: 'color 200ms',
+          }}>
+            Contactar
+          </Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -116,9 +122,14 @@ export const Navigation = () => {
           }}>
             Servicios
           </Link>
-          <Button variant="primary" style={{ width: '100%', fontSize: '18px' }}>
-            <Link href="/contacto" style={{ textDecoration: 'none', color: 'inherit' }}>Contactar</Link>
-          </Button>
+          <Link href="/contacto" style={{
+            fontSize: '18px',
+            color: '#191c1d',
+            textDecoration: 'none',
+            fontFamily: 'var(--font-sans, Inter, sans-serif)',
+          }}>
+            Contactar
+          </Link>
         </div>
       )}
     </nav>
